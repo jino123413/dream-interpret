@@ -10,3 +10,4 @@ export { default as ResultScreen } from './ResultScreen';
 export { default as DeepAnalysis } from './DeepAnalysis';
 export { default as WeeklyPatternComponent } from './WeeklyPattern';
 export { default as SymbolCollection } from './SymbolCollection';
+export { default as BannerAd } from './BannerAd';

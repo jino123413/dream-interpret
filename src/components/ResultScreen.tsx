@@ -5,6 +5,7 @@ import DreamCloudMap from './DreamCloudMap';
 import DeepAnalysis from './DeepAnalysis';
 import WeeklyPatternComponent from './WeeklyPattern';
 import SymbolCollection from './SymbolCollection';
+import BannerAd from './BannerAd';
 import { CompassIcon, BrainIcon, ChartIcon, BookIcon, RefreshIcon } from './Icons';
 
 const DREAM_STATE_EMOJIS: Record<string, string> = {
@@ -205,6 +206,11 @@ const ResultScreen: React.FC<ResultScreenProps> = ({
             </div>
           </div>
         )}
+      </div>
+
+      {/* Banner Ad */}
+      <div style={{ margin: '16px 0' }}>
+        <BannerAd adGroupId="ait.v2.live.b930964ea210471d" />
       </div>
 
       {/* 8. Retry Button (Core feature - NO AD) */}
